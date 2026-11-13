@@ -556,5 +556,11 @@
     "description": "Removes the browse button from the search bar.",
     "code": ".main-globalNav-browseButtonWrapper { display: none !important }",
     "preview": "resources/assets/snippets/remove-browse.png"
+  },
+  {
+    "title": "Fix Artist & Profile Card Shadow",
+    "description": "Removes the square shaded background behind circular artist and profile avatars.",
+    "code": ".main-cardImage-imageWrapper[class*=\" \"] { background-color: transparent !important; box-shadow: none !important; } .main-cardImage-imageWrapper[class*=\" \"] > div { background-color: transparent !important; box-shadow: none !important; }",
+    "preview": "resources/assets/snippets/fix-artist-and-profile-card-shadow.png"
   }
 ]
